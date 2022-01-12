@@ -1,5 +1,7 @@
 import React from 'react';
 
+
+
 const CareerItemTitle = ({ title, department }) => {
   return (
     <div className=" text-sm leading-5 font-medium text-pink-600 truncate">
@@ -92,7 +94,7 @@ export const CareerItem = ({
             <div className=" flex items-center gap-2 text-sm leading-5 text-gray-500 ">
               <WorkingBagIcon />
 
-              <span>{level}</span>
+              <span> {level}</span>
 
               {studentFriendly && (
                 <span className=" inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
