@@ -1,17 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { HeaderItem } from './header-item';
+import { ListingItem } from './listing-item';
+import { Career } from './pages/career';
+import { MarketPlace } from './marketplace'
+import { MarketComp } from './pages/marketplacecomponents';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+  <>
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+    <MarketComp />
+    {/* <Career/> */}
+
+  </>,
+ 
+  
+  
+
+  document.querySelector('#branch')
+);
